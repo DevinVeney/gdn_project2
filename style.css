@@ -1,2 +1,23 @@
-.banner {
+/* Add these styles to your existing style.css */
+
+.banner-overlay {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -160%);
+  text-align: center;
+  color: #fff;
+}
+
+.banner-overlay h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.banner-overlay button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+.animon-banner-elements {
+
 }
